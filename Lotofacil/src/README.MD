@@ -40,20 +40,10 @@ Escolha uma opção:
 
 Escolha uma das opções digitando o número correspondente seguido da tecla Enter.
 
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
-
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
-## Contato
-
-Para mais informações, entre em contato com o desenvolvedor:
-
-Nome: [Kevin Thiago dos Santos]
-Email: [ ]
 
 
 
