@@ -25,6 +25,7 @@ Para executar o programa, siga os seguintes passos:
     ```
     java Lotofacil
     ```
+6. Observação: Versão do JDK utilizada: 21.
 
 ## Opções do Menu
 
