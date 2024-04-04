@@ -20,7 +20,7 @@ public class LotoInterface extends JFrame{
 
     //construtor
     public LotoInterface(){
-        this.setTitle("Exemplo de Interface Gráfica");
+        this.setTitle("Lotofácil");
         this.setSize(400,200);
         configurarComponentes();
         this.setLocationRelativeTo(null); // Centralizar janela
