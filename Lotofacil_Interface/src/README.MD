@@ -31,6 +31,12 @@ Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema para 
 5. Você terá a opção de trocar sua escolha original para outra porta.
 6. Uma mensagem informará se você ganhou o prêmio ou não.
 
+## Exemplo visual
+
+![Texto alternativo para a imagem](img/Lotofcil-5April2024-ezgif.com-video-to-gif-converter.gif)
+
+
+
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um Pull Request com melhorias no código ou na documentação.
