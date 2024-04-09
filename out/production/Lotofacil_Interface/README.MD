@@ -1,35 +1,51 @@
-# Jogo Monty Hall - Documentação
+# Lotofácil
 
-Este é um programa Java que implementa o famoso jogo Monty Hall utilizando uma interface gráfica Swing. O jogo consiste em um participante que escolhe uma entre três portas. Após a escolha, o apresentador do jogo revela uma das portas não escolhidas que não contém o prêmio. Em seguida, o participante tem a opção de manter sua escolha original ou trocar para outra porta. Finalmente, a porta escolhida pelo participante é aberta, revelando se ele ganhou o prêmio ou não.
+O programa Lotofácil é uma simulação de um jogo de loteria simples, que permite ao usuário fazer apostas e verificar se ganhou algum prêmio.
 
-## Pré-requisitos
+## Funcionalidades
 
-Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema para compilar e executar o programa.
+O programa oferece as seguintes funcionalidades:
 
-## Como compilar e executar
+1. Apostar de 0 a 100: O usuário escolhe um número entre 0 e 100 e verifica se ganhou um prêmio.
+2. Apostar de A a Z: O usuário escolhe uma letra entre A e Z e verifica se ganhou um prêmio.
+3. Apostar em par ou ímpar: O usuário escolhe um número inteiro aleatório e verifica se ganhou um prêmio.
 
-1. Clone este repositório em sua máquina local:
+## Como Executar
+
+Para executar o programa, siga os seguintes passos:
+
+1. Certifique-se de ter o JDK (Java Development Kit) instalado em seu computador.
+2. Clone este repositório para o seu ambiente local.
+3. Navegue até o diretório onde o arquivo Lotofacil.java está localizado.
+4. Compile o arquivo Lotofacil.java usando o seguinte comando:
+    ```
+    javac Lotofacil.java
+    ```
+5. Execute o arquivo compilado Lotofacil.class usando o seguinte comando:
+    ```
+    java Lotofacil
+    ```
+6. Observação: Versão do JDK utilizada: 21.
+
+## Opções do Menu
+
+Ao executar o programa, você verá o seguinte menu:
+**********************************
+MENU LOTOFÁCIL
+1) Apostar de 0 a 100:
+2) Apostar de A a Z:
+3) Apostar em par ou ímpar:
+0) Sair
+**********************************
+Escolha uma opção:
+
+Escolha uma das opções digitando o número correspondente seguido da tecla Enter.
+
+## Exemplo visual
+
+![Texto alternativo para a imagem](img/Lotofcil-5April2024-ezgif.com-video-to-gif-converter.gif)
 
 
-2. Navegue até o diretório do projeto:
-
-
-3. Compile o código Java:
-
-
-4. Execute o programa compilado:
-
-
-5. O jogo Monty Hall será exibido em uma interface gráfica Swing.
-
-## Como jogar
-
-1. Ao iniciar o jogo, você será recebido com uma janela de boas-vindas.
-2. Clique no botão "Jogar" para iniciar o jogo.
-3. Um diálogo aparecerá solicitando que você escolha uma porta (1, 2 ou 3). Insira sua escolha e pressione Enter.
-4. Após sua escolha, o apresentador abrirá uma das portas não escolhidas que não contém o prêmio.
-5. Você terá a opção de trocar sua escolha original para outra porta.
-6. Uma mensagem informará se você ganhou o prêmio ou não.
 
 ## Contribuição
 

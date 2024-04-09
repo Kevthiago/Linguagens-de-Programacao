@@ -1,13 +1,11 @@
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
-import java.util.Scanner;
-import javax.swing.*;
 
-public class LotoInterface extends JFrame{
+public class LotoInterface extends JFrame {
 
-    Scanner scn = new Scanner(System.in);
     Random rdn = new Random();
 
     //atributos
@@ -15,27 +13,38 @@ public class LotoInterface extends JFrame{
     private JButton buttonZeroCem = new JButton("Apostar 'de 0 a 100'");
     private JButton buttonLetra = new JButton("Apostar 'Letra Premiada'");
     private JButton buttonParImp = new JButton("Apostar em 'par ou ímpar'");
-    private JTextField jTextFieldTexto = new JTextField("Teste", 20);
-
+    ImageIcon icon = new ImageIcon(getClass().getResource("img/fortune-wheel.png")); // Ajuste o caminho conforme a localização real da sua imagem
+    JLabel imageLabel = new JLabel(icon);
 
     //construtor
-    public LotoInterface(){
+    public LotoInterface() {
         this.setTitle("Lotofácil");
-        this.setSize(400,200);
+        this.setSize(450, 200);
         configurarComponentes();
         this.setLocationRelativeTo(null); // Centralizar janela
         this.setVisible(true); // Exibir janela
-        setLayout(new BorderLayout());
         setResizable(false); // Impede que a janela seja redimensionada pelo usuário
     }
 
-    private void configurarComponentes(){
-        painel.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 20));
-        painel.setBackground(new Color(255,255,255));
-        jTextFieldTexto.setFont(new Font("Arial", Font.PLAIN, 16));
+    private void configurarComponentes() {
+        painel.setLayout(null); // Usando layout nulo para poder definir manualmente as posições dos componentes
+        painel.setBackground(new Color(255, 255, 255));
+
+        // Definindo as posições e tamanhos dos componentes
+        Image img = icon.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+        ImageIcon imgRedimensionada = new ImageIcon(img);
+        imageLabel = new JLabel(imgRedimensionada);
+        buttonZeroCem.setBounds(200, 20, 200, 30); // Ajuste as coordenadas conforme necessário
+        buttonLetra.setBounds(200, 60, 200, 30); // Ajuste as coordenadas conforme necessário
+        buttonParImp.setBounds(200, 100, 200, 30); // Ajuste as coordenadas conforme necessário
+        imageLabel.setBounds(40, 25, 100, 100); // Ajuste as coordenadas conforme necessário
+
+        // Adicionando os componentes ao painel
         painel.add(buttonZeroCem);
         painel.add(buttonLetra);
         painel.add(buttonParImp);
+        painel.add(imageLabel);
+
         this.getContentPane().add(painel);
 
         //funcionalidade
@@ -59,7 +68,8 @@ public class LotoInterface extends JFrame{
         });
     }
 
-    //métodos
+    // métodos de apostas...
+
     public void apostarNumero() {
         try {
             JTextField textField = new JTextField(10); // Criando um JTextField para entrada de texto
@@ -123,4 +133,3 @@ public class LotoInterface extends JFrame{
         new LotoInterface();
     }
 }
-

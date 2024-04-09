@@ -43,7 +43,7 @@ Escolha uma das opções digitando o número correspondente seguido da tecla Ent
 
 ## Exemplo visual
 
-![Texto alternativo para a imagem](img/Lotofcil-5April2024-ezgif.com-video-to-gif-converter.gif)
+![Texto alternativo para a imagem](img/Loom-Recorder-Settings-9-April-2024.gif)
 
 
 
