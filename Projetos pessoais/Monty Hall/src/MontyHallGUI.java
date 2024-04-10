@@ -14,7 +14,7 @@ public class MontyHallGUI extends JFrame{
     // Declaração de componentes Swing
     private JPanel painel = new JPanel(); // Painel que contém os componentes
     private JButton jogar = new JButton("Jogar"); // Botão para iniciar o jogo
-    private JLabel titulo1 = new JLabel("Bem vindo ao jogo Monty Hall!"); // Rótulo de boas-vindas
+    private JLabel titulo1 = new JLabel("Bem vindo(a) ao jogo Monty Hall!"); // Rótulo de boas-vindas
 
     // Construtor da classe MontyHallGUI
     public MontyHallGUI(){
@@ -31,7 +31,7 @@ public class MontyHallGUI extends JFrame{
     // Método para configurar os componentes Swing
     private void configurarComponentes(){
         painel.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 20)); // Define o layout do painel
-        painel.setBackground(new Color(154, 154, 219)); // Define a cor de fundo do painel
+        painel.setBackground(new Color(93, 143, 224)); // Define a cor de fundo do painel
         painel.add(titulo1); // Adiciona o rótulo de boas-vindas ao painel
         painel.add(jogar); // Adiciona o botão "Jogar" ao painel
         this.getContentPane().add(painel); // Adiciona o painel à janela

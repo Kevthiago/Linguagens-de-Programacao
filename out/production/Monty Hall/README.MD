@@ -31,9 +31,6 @@ Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema para 
 5. Você terá a opção de trocar sua escolha original para outra porta.
 6. Uma mensagem informará se você ganhou o prêmio ou não.
 
-## Exemplo Visual
-
-![Texto alternativo para a imagem](img/Monty-Hall-10-April-2024.gif)
 
 ## Contribuição
 
