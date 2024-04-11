@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Projetos pessoais/CalculadoraCompleta/CalculadoraCompleta.iml" filepath="$PROJECT_DIR$/Projetos pessoais/CalculadoraCompleta/CalculadoraCompleta.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projetos pessoais/Jogo da Forca/Jogo da Forca.iml" filepath="$PROJECT_DIR$/Projetos pessoais/Jogo da Forca/Jogo da Forca.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linguagens-de-Programacao.iml" filepath="$PROJECT_DIR$/Linguagens-de-Programacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lotofacil/Lotofacil.iml" filepath="$PROJECT_DIR$/Lotofacil/Lotofacil.iml" />
