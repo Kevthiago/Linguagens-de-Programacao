@@ -77,7 +77,7 @@ public class JogoForcaGUI extends JFrame implements ActionListener {
                     guessedLetters += letter; // Adicionando a letra às letras adivinhadas
                     wordLabel.setText(displayWord()); // Atualizando a exibição da palavra
                     if (!wordLabel.getText().contains("_")) { // Verificando se todas as letras foram adivinhadas
-                        JOptionPane.showMessageDialog(null, "Parabéns! Você venceu!"); // Exibindo mensagem de vitória
+                        JOptionPane.showMessageDialog(null, "Parabéns! Você venceu! A palavra era " + wordToGuess); // Exibindo mensagem de vitória
                         guessButton.setEnabled(false); // Desabilitando o botão
                     }
                 } else {

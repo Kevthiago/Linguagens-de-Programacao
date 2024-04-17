@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 public class Main extends JFrame {
     // Declaração dos componentes da interface do usuário
     private JPanel painel = new JPanel(); // Painel que contém todos os componentes
-    private JTextField caixaDeTexto = new JTextField(); // Caixa de texto para exibir os números e resultados
+    private JTextField caixaDeTexto = new JTextField(" "); // Caixa de texto para exibir os números e resultados
     private JButton buttonClean = new JButton("Limpar"); // Botão para limpar a caixa de texto
     private JButton buttonDelete = new JButton("Delete"); // Botão para deletar o último caractere da caixa de texto
     private JButton[] botoesNumericos = new JButton[10]; // Array para armazenar os botões numéricos de 0 a 9
