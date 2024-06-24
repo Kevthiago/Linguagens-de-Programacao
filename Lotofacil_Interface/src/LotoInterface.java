@@ -21,6 +21,7 @@ public class LotoInterface extends JFrame {
         this.setTitle("Lotofácil");
         this.setSize(450, 200);
         configurarComponentes();
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null); // Centralizar janela
         this.setVisible(true); // Exibir janela
         setResizable(false); // Impede que a janela seja redimensionada pelo usuário
